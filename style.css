@@ -1,0 +1,226 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+main{
+    height: 1000px;   /*высота основной части*/
+    display: flex;
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+
+.first{
+    height:300px;
+    width:25%;
+    background: linear-gradient(cadetblue, rgb(10, 37, 155));
+}
+.second{
+    height:300px;
+    width:25%;
+    background:linear-gradient(rgb(71, 161, 71),darkgreen);
+}
+.third{
+    height:300px;
+    width: 25%;
+    background:linear-gradient(blueviolet,rgb(62, 16, 105));
+}
+.forth{
+    height:300px;
+    width:25%;
+    background:linear-gradient(blue,rgb(1, 1, 112));
+}
+.first li{
+    background-color: rgb(140, 209, 211);
+    line-height: 2em;
+    margin-top:10px;
+    border-radius:3em;
+    width:50%;
+    padding-left:8%;
+    height:40px;
+}
+.first li:hover{
+    background-color:brown;
+    color:white;
+    width:60%;
+    height:45px;
+}
+.second li{
+    background-color:rgb(137, 185, 89);
+    line-height:2em;
+    margin-top:10px;
+    border-radius:3em;
+    width:50%;
+    padding-left:8%;
+    height:40px;
+}
+.second li:hover{
+    background-color: brown;
+    color:white;
+    width:60%;
+    Height:45px;
+}
+.third li{
+    background-color: rgb(148, 64, 226);
+    line-height:2em;
+    margin-top:10px;
+    border-radius:3em;
+    width:50%;
+    padding-left:8%;
+    height:35px;
+}
+.third li:hover{
+    background-color:brown;
+    color:white;
+    width:60%;
+    height:40px;
+}
+.forth li{
+    background-color:rgb(67, 67, 247);
+    line-height:2em;
+    margin-top:10px;
+    border-radius:3em;
+    width:50%;
+    padding-left:8%;
+    height:30px;
+}
+.forth li:hover{
+    background-color: brown;
+    color:white;
+    width:60%;
+    height:35px;
+}
+.nav ul{
+    list-style:none;
+    padding:0;
+    margin: 0;
+    background-color:rgb(73, 73, 175);
+    font-size:30px;
+    width:100%;
+    text-align:center;
+    border:5px solid white;
+    overflow: hidden;
+}
+.nav a{
+    display:block;
+    text-decoration:none;
+    color:white;
+    padding: 8px 16px;
+    float:left;
+}
+.nav a:hover{
+    background-color:antiquewhite;
+    color:black;
+}
+.nav{
+    position:sticky;
+    top:0;
+    display:flex;
+}
+.block{
+    width:100%;
+    height:300px;
+    background-color:rgb(77, 168, 112);
+}
+.btn1{
+    width:150px;
+    height:60px;
+    background-color:rgb(30, 80, 136);
+    color: white;
+    font-size:30px;
+    border: 2px black solid;
+    border-radius:12px;
+    margin-left:30px;
+    margin-top: 20px;
+}
+.btn1:hover{
+    background-color: rgb(255, 255, 255);
+    color:black;
+}
+.btn1:active{
+    background-color:blueviolet;
+}
+.btn2{
+    width:200px;
+    height:60px;
+    background-color: rgb(243, 89, 78);
+    color:white;
+    font-size:30px;
+    border:2px black solid;
+    border-radius:12px;
+    margin-left:30px;
+    margin-top:20px;
+}
+.btn2:hover{
+    background-color: white;
+    color:black;
+}
+.btn2:active{
+    background-color: blueviolet;
+}
+
+
+form{
+    width:400px;
+    float:right;
+    display:flex;
+}
+.search{
+    width:80%;
+    padding: 15px 15px;
+    font-size:20px;
+    border-radius:10px;
+}
+.button{
+    width:20%;
+    border-radius:10px;
+    background-color:skyblue;
+    color: white;
+}
+.button:hover{
+    background-color: rgb(94, 162, 189);
+    color: black;
+    cursor:pointer;
+}
+.img_button{
+    height: 2em;
+    position: relative;
+}
